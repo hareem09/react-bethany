@@ -1,6 +1,9 @@
 import React from 'react'
+import {useState} from 'react'
 import { NavLink } from 'react-router-dom'
 function Header() {
+
+  const [toggle,setToggle]=useState(true)
   return (
     <>
     <header> 
@@ -9,8 +12,8 @@ function Header() {
          <img src="Images\bethany-horizontal-logo.png"  className="ml-10 w-48 h-[62px] " alt=""/>
         </div>
       <label htmlFor="toggle" className="mr-10 text-2xl leading-10  w-16 float block md:hidden  cursor-pointer ">&#9776;</label>
-      <input type="checkbox" id="toggle" className="hidden"/>
-        <ul className="list absolute translate-y-32 flex-col w-[631px]  bg-amber-600 md:static md:w-0 md:translate-y-0  md:flex md:flex-row self-center text-white font-sans hidden">
+      <input type="checkbox" id="toggle" className="hidden" onClick={()=>setToggle(!toggle)</input>}/>
+        <ul className={`${toggle}?"list absolute translate-y-32 flex-col w-[631px]  bg-amber-600 md:static md:w-0 md:translate-y-0  md:flex md:flex-row self-center text-white font-sans hidden"`}>
             <li className="w-20 h-11 text-[18px] font-bold hover:text-black"><NavLink to={'/'}  className={({isActive})=>`w-16 ${isActive ?'text-black':'text-white'} h-11  ml-3 p-2`}>HOME</NavLink></li>
             <li className="w-[72px] h-11 text-[18px] font-bold hover:text-black "><NavLink to={'/Pies'} className="w-14 h-11 ml-4 p-2">PIES</NavLink></li>
             <li className="w-28 h-11 text-[18px] font-bold hover:text-black"><NavLink to={'/Contact'} className={({isActive})=>`w-24 ${isActive ?'text-black':'text-white'} h-11 ml-4 p-2`}>CONTACT</NavLink></li>
