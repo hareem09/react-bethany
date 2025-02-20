@@ -3,8 +3,8 @@ import React from 'react'
 function Cheese() {
   return (
     <>
-    <div className="main1 w-[450px] md:w-[720px] lg:w-[855px] xl:w-[990px] flex-shrink mb-9 md:mb-0  md:mt-8  ml-2 mt:ml-12  ">
-            <h1 className="w-[350px] sm:w-[550px] md:w-[720px] lg:w-[831px] xl:w-[966px] h-[64px] md:h-[28.8px] mb-12 text-[22px] md:text-[50px] font-sans font-semibold text-amber-600 ">
+    <div className="main1 w-auto md:w-[720px] lg:w-[855px] xl:w-[990px] flex-shrink mb-9 md:mb-0  md:mt-8  ml-2 mt:ml-12  ">
+            <h1 className="w-auto sm:w-[550px] md:w-[720px] lg:w-[831px] xl:w-[966px] h-[64px] md:h-[28.8px] mb-12 text-[22px] md:text-[50px] font-sans font-semibold text-amber-600 ">
               OUR SELECTION OF PIES
             </h1>
             <p className="font-bold ml-20 md:ml-80 mb-2">Current selection of pies</p>
