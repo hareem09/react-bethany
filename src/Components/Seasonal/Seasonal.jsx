@@ -3,8 +3,8 @@ import React from 'react'
 function Seasonal() {
   return (
     <>
-       <div className="main1 w-[550px] md:w-[720px] lg:w-[855px] xl:w-[990px]  mt-8 md:ml-12  ">
-            <h1 className="w-[479px] sm:w-[550px] md:w-[720px] lg:w-[831px] xl:w-[966px] h-[28.8px] mb-12 md:text-[34px] font-sans font-semibold text-amber-600 tracking-wide ">
+       <div className="main1 w-auto md:w-[720px] lg:w-[855px] xl:w-[990px]  mt-8 md:ml-12  ">
+            <h1 className="w-auto sm:w-[550px] md:w-[720px] lg:w-[831px] xl:w-[966px] h-[28.8px] mb-12 md:text-[34px] font-sans font-semibold text-amber-600 tracking-wide ">
               OUR SELECTION OF PIES
             </h1>
             <p className="font-bold md:ml-96 mb-2 text-[16px]">Current selection of pies</p>
