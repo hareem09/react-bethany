@@ -3,8 +3,8 @@ import React from 'react'
 function Pies() {
   return (
    <>
-   <div className="main1 w-[550px] md:w-[720px] lg:w-[855px] sm:mt-8 md:ml-12 ">
-          <h1 className="w-[550px] md:w-[720px] lg:w-[838px] h-[48px]  sm:mb-12 text-[21px] md:text-[50px] font-sans font-semibold text-amber-600 ">
+   <div className="main1 w-auto md:w-[720px] lg:w-[855px] sm:mt-8 md:ml-12 ">
+          <h1 className="w-auto md:w-[720px] lg:w-[838px] h-[48px]  sm:mb-12 text-[21px] md:text-[50px] font-sans font-semibold text-amber-600 ">
             OUR SELECTION OF PIES
           </h1>
           <p className="font-bold md:ml-80 mb-2">Current selection of pies</p>
@@ -37,7 +37,7 @@ function Pies() {
                     <td className="border-2 border-black md:w-[232px] md:h-[67.6px] md:pb-8 md:pl-16">Cranberry Pie</td>
                     <td className="border-2 border-black md:w-[340px] md:h-[67.6px] md:pb-8 md:pl-20">A Christmas favorite</td>
                     <td className="border-2 border-black md:w-[66px] md:h-[67.6px] md:pb-8 md:pl-2">$18.95</td>
-                    <td className="border-2 border-black md:w-[102px] md:h-[67.6px] md:pb-8 md:pl-1 text-[16px] font-sans">View Details</td>
+                    <td className="border-2 border-black md:w-[102px] md:h-[67.6px] md:pb-8 md:pl-1 md:text-[16px] font-sans">View Details</td>
                 </tr>
                 <tr className='text-xs md:text-base'>
                     <td className="w-[87.6px] h-[67.6px] border-2 border-black"><img src="/Images/cherry-pie-small.jpg" className="p-2" alt=""/></td>
@@ -72,7 +72,7 @@ function Pies() {
                     <td className="border-2 border-black md:w-[232px] md:h-[67.6px] md:pb-8 md:pl-8">Blueberry cheese cake</td>
                     <td className="border-2 border-black md:w-[340px] md:h-[67.6px] md:pb-8 md:pl-20">You'll love it!</td>
                     <td className="border-2 border-black md:w-[66px] md:h-[67.6px] md:pb-8 md:pl-2">$17.95</td>
-                    <td className="border-2 border-black md: w-[102px] md:h-[67.6px] md:pb-8 md:pl-1 md:tmd:ext-[16px] font-sans">View Details</td>
+                    <td className="border-2 border-black md: w-[102px] md:h-[67.6px] md:pb-8 md:pl-1 md:text-[16px] font-sans">View Details</td>
                 </tr>
                 <tr className='text-xs md:text-base'>
                     <td className="w-[87.6px] h-[67.6px] border-2 border-black"><img src="/Images/chocolate-cheesecake-small.jpg" className="p-2" alt=""/></td>
